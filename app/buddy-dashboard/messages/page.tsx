@@ -307,21 +307,28 @@ export default function BuddyMessagesPage(){
 
             {/* Chat Window */}
             <div className="flex-1 flex flex-col">
-             {selectedConv ? (
-  <ChatWindow
-    chatId={selectedConv.id}
-    currentUserId="buddy-user"
-    otherUser={selectedConv.otherUser}
-    bookingInfo={selectedConv.bookingInfo}
-  />
-) : (
-  <div className="flex items-center justify-center h-full text-gray-500">
-    <div className="text-center">
-      <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-        <Plus className="w-8 h-8 text-gray-400" />
+                           {selectedConv ? (
+                <ChatWindow
+                  chatId={selectedConv.id}
+                  currentUserId="buddy-user"
+                  otherUser={selectedConv.otherUser}
+                  bookingInfo={selectedConv.bookingInfo}
+                />
+              ) : (
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Plus className="w-8 h-8 text-gray-400" />
+                    </div>
+                    <h3 className="text-lg font-medium text-gray-900 mb-2">No conversation selected</h3>
+                    <p className="text-gray-600">Choose a guest conversation to start chatting</p>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 className="text-lg font-medium text-gray-900 mb-2">No conversation selected</h3>
-      <p className="text-gray-600">Choose a guest conversation to start chatting</p>
-    </div>
-  </div>
-)}
+    </DashboardLayout>
+  )
+}
