@@ -1,10 +1,10 @@
 'use client'
 
 import React, { useState } from 'react'
-import DashboardLayout from '@/components/DashboardLayout'
 import ChatWindow from '@/components/ChatWindow'
-import { Search, Plus } from 'lucide-react'
+import { Search, Plus, ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 // Mock data for chat conversations
 type Conversation = {
@@ -150,7 +150,27 @@ export default function MessagesPage() {
   }
 
   return (
-    <DashboardLayout userType="traveler" currentPage="messages">
+    <div className="min-h-screen bg-gray-50 p-8">
+      {/* Simple Header */}
+      <div className="mb-6">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <Link href="/">
+              <Button variant="ghost" size="sm">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Home
+              </Button>
+            </Link>
+            <h1 className="text-2xl font-bold text-gray-900">Traveler Messages</h1>
+          </div>
+          <div className="flex items-center space-x-3">
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+              Traveler Dashboard
+            </span>
+          </div>
+        </div>
+      </div>
+
       <div className="h-[calc(100vh-8rem)] bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
         <div className="flex h-full">
           {/* Conversations List */}
@@ -277,6 +297,6 @@ export default function MessagesPage() {
           </div>
         </div>
       </div>
-    </DashboardLayout>
+    </div>
   )
 }
