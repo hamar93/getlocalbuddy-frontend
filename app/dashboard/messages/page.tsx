@@ -3,8 +3,9 @@
 import React, { useState } from 'react'
 import DashboardLayout from '@/components/DashboardLayout'
 import ChatWindow from '@/components/ChatWindow'
-import { Search, Plus, MoreVertical } from 'lucide-react'
+import { Search, Plus } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+
 // Mock data for chat conversations
 type Conversation = {
   id: string
@@ -13,6 +14,7 @@ type Conversation = {
     name: string
     avatar: string
     isOnline: boolean
+    lastSeen?: Date
   }
   lastMessage: {
     content: string
