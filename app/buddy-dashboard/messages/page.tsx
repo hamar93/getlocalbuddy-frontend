@@ -5,7 +5,6 @@ import DashboardLayout from '@/components/DashboardLayout'
 import ChatWindow from '@/components/ChatWindow'
 import { Search, Plus, Filter } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import DashboardLayout from '@/components/DashboardLayout'
 // Mock data for buddy's conversations with travelers
 const mockBuddyConversations = [
   {
