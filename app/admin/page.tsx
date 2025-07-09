@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button'
 const mockAdminData = {
   stats: {
     totalUsers: 2847,
+    totalTravelers: 2505,
     activeBuddies: 342,
     pendingBuddies: 23,
     totalBookings: 1256,
