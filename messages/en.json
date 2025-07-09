@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "findBuddy": "Find a Buddy",
+    "popularCities": "Popular Cities",
+    "cityWiki": "City Wiki",
+    "becomeBuddy": "Become a Buddy",
+    "helpCenter": "Help Center",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Your Local Friend in Every City",
+    "subtitle": "Connect with authentic locals who'll show you their city like a true friend would. No tours, no scripts - just genuine experiences.",
+    "findBuddyBtn": "Find Your Buddy",
+    "becomeBuddyBtn": "Become a Buddy"
+  },
+  "howItWorks": {
+    "title": "How GetLocalBuddy Works",
+    "step1": {
+      "title": "Choose Your City",
+      "description": "Browse verified local buddies in your destination. Each buddy is background-checked and speaks your language."
+    },
+    "step2": {
+      "title": "Book & Connect",
+      "description": "Book your buddy by the hour. Chat beforehand to plan what you'd like to see and do."
+    },
+    "step3": {
+      "title": "Explore Like a Local",
+      "description": "Meet your buddy and explore the city together. Discover hidden gems, local favorites, and make a real connection."
+    }
+  },
+  "features": {
+    "title": "Why Choose GetLocalBuddy?",
+    "verified": {
+      "title": "Verified Locals",
+      "description": "Every buddy is identity-verified and background-checked for your safety and peace of mind."
+    },
+    "authentic": {
+      "title": "Authentic Experiences", 
+      "description": "No scripted tours. Your buddy tailors the time to your interests and shows you their personal favorites."
+    },
+    "safe": {
+      "title": "Safe & Secure",
+      "description": "Secure payments, emergency contacts, and real-time location sharing keep you safe."
+    },
+    "pricing": {
+      "title": "Fair Pricing",
+      "description": "Starting from just $20 per hour. No hidden fees, no tourist traps - just honest local guidance."
+    }
+  },
+  "cities": {
+    "title": "Popular Destinations"
+  },
+  "footer": {
+    "travelers": "Travelers",
+    "howItWorks": "How it works",
+    "safety": "Safety",
+    "trustSafety": "Trust & Safety",
+    "buddies": "Buddies",
+    "becomeBuddy": "Become a Buddy",
+    "guidelines": "Buddy Guidelines", 
+    "earnings": "Earnings",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "contact": "Contact Us",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
